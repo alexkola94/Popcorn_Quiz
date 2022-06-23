@@ -54,7 +54,7 @@
         numCorrect++;
 
         // color the answers green
-        answerContainers[questionNumber].style.color = "#1A4D2E";
+        answerContainers[questionNumber].style.color = "#9EB23B";
       }
       // if answer is wrong or blank
       else {
