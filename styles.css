@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
 
 body {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: 'Work Sans', sans-serif;
     color: #333;
     font-weight: 300;
@@ -12,7 +12,7 @@ body {
 h1 {
     font-weight: 300;
     margin: 0px;
-    padding: 10px;
+    padding: 0.625rem;
     font-size: 3rem;
     background-color: crimson;
     color: #fff;
@@ -20,31 +20,32 @@ h1 {
 }
 
 .question {
-    font-size: 30px;
-    margin-bottom: 10px;
+    font-size: 2.875rem;
+    margin-bottom: 0.625rem;
 }
 
 .answers {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     text-align: left;
     display: inline-block;
+    font-size: 1.25rem;
 }
 
 .answers label {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 0.625px;
 }
 
 button {
     font-family: 'Rancho', cursive;
-    font-size: 22px;
+    font-size: 1.375rem;
     background-color: orangered;
     color: #fff;
     border: 0px;
-    border-radius: 3px;
-    padding: 20px;
+    border-radius: 0.188rem;
+    padding: 1.25rem;
     cursor: pointer;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 button:hover {
@@ -72,21 +73,25 @@ button:hover {
 
 .quiz-container {
     position: relative;
-    height: 200px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    height: 12.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
 
 }
 
-.hidden {
-    display: none;
+
+
+.container_footer {
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
 }
 
 footer {
     background-color: crimson;
     color: #fff;
     font-family: 'Rancho', cursive;
-    position: absolute;
     bottom: 0;
     width: 100%;
+    margin-top: auto;
 }
